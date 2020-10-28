@@ -19,3 +19,20 @@ console.log(5/"cow", 'is not a number...');
 console.log(['a','b','c'], 'is an array...');
 // We can have object literals
 console.log({one: 'two', buckle: 'my shoe'}, 'is an object...');
+
+var pet = { name: 'Hank', species: 'dog', age: 6 };
+// var rush = ['Alex Lifeson', 'Neil Peart', 'Geddy Lee'];
+
+var rush = [
+  { name: 'Alex Lifeson', instrument: 'guitar' },
+  { name: 'Neil Peart', instrument: 'drums' },
+  { name: 'Geddy Lee', instrument: 'bass' }
+];
+
+// Functions...
+function addTwo(number) {
+  if (typeof number != 'number') {
+    number = 0;
+  }
+  return number + 2;
+}
